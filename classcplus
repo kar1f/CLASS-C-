@@ -1,0 +1,28 @@
+//Author:MD KARIF HASAN
+
+#include <iostream>
+using namespace std;
+class student {
+public:
+    int rollno,marks;
+    char name [20];
+    void display()
+    {
+        cout <<"\n enter the name"<<endl;
+        cin>>name;
+        cout <<"\n enter the rollno"<<endl;
+        cin>>rollno;
+        cout <<"\n enter the marks"<<endl;
+        cin>>marks;
+        cout <<"\n name is"<<name;
+        cout <<"\n rollno is"<<rollno;
+        cout <<"\n marks are"<<marks;
+
+
+    }
+};
+int main ()
+{
+    student s1;
+    s1.display();
+}
